@@ -1,9 +1,9 @@
 package abstraction;
 
-public class Dog extends Animal{
+public class Dog extends Mammel{
     public String name;
-    public Dog(String type, String size, int weight, String name) {
-        super(type, size, weight);
+    public Dog(String type, String size, int weight, String name,String temp) {
+        super(type, size, weight, temp);
         this.name = name;
     }
 
